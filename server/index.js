@@ -229,6 +229,7 @@ app.get('/products', async (req, res) =>
     }
 });
 
+/**
 app.get('/products', async (req, res) => 
 {
     const { category, minPrice, maxPrice, search } = req.query;
@@ -270,6 +271,7 @@ app.get('/products', async (req, res) =>
         res.status(500).json({ error: 'Erro ao buscar produtos' });
     }
 });
+**/
 
 app.post('/cart', async (req, res) => 
 {
